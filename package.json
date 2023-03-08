@@ -1,0 +1,24 @@
+{
+  "name": "espn-fbe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "wrangler publish",
+    "dev": "wrangler dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20230115.0",
+    "drizzle-kit": "^0.17.0",
+    "wrangler": "^2.9.0"
+  },
+  "dependencies": {
+    "@planetscale/database": "^1.6.0",
+    "drizzle-orm": "^0.21.1",
+    "hono": "^3.0.3"
+  }
+}
